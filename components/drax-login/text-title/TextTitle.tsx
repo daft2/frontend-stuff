@@ -1,6 +1,6 @@
 import React from "react";
 
-const TextTitle: React.FC<{ text: String; color?: String }> = ({
+const TextTitle: React.FC<{ text: string; color?: string }> = ({
   text,
   color,
 }) => {
