@@ -5,7 +5,15 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'draxThemeOrange': '#FEDCC5',
+        'draxBtnOrange': '#F25019'
+      },
+      spacing: {
+        '45percent': '45%'
+      }
+    },
   },
   plugins: [],
 }
