@@ -8,7 +8,6 @@ class MyDocument extends Document {
 		return (
 			<Html>
 				<Head>
-					<Script src="https://kit.fontawesome.com/e015ee243a.js" crossOrigin="anonymous"></Script>
 				</Head>
 				<body className='font-m-plus'>
 					<Main />
