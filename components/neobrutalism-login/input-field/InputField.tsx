@@ -2,12 +2,12 @@ import { IconDefinition } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
-const InputText: React.FC<{
+const InputField: React.FC<{
   name: string;
   icon: IconDefinition;
   placeholder?: string;
-  password?: boolean;
-}> = ({ name, icon, placeholder, password }) => {
+  type?: string;
+}> = ({ name, icon, placeholder, type }) => {
   return (
     <label className="relative block shadow-black">
       <span className="sr-only">{name}</span>
@@ -17,11 +17,15 @@ const InputText: React.FC<{
       <input
         className="placeholder:text-neobrutalismText shadow-neobrutalism h-12 block bg-white w-full border-2 border-neobrutalismText rounded-sm py-2 pl-9 pr-3 focus:outline-none focus:shadow-none focus:ring-1 sm:text-sm"
         placeholder={placeholder}
-        type={password ? "password" : "text"}
+        type={type}
         name={name}
       />
     </label>
   );
 };
 
-export default InputText;
+InputField.defaultProps = {
+  type: "text",
+};
+
+export default InputField;
