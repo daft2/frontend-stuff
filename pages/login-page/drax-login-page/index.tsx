@@ -2,7 +2,7 @@ import { NextPage } from "next";
 import Image from "next/image";
 import React from "react";
 
-import LoginForm from "../../components/drax-login/login-form/LoginForm";
+import LoginForm from "../../../components/drax-login/login-form/LoginForm";
 
 const DraxLoginPage: NextPage = () => {
   return (
