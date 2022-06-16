@@ -48,7 +48,7 @@ const RegisterForm = () => {
           </span>
         </div>
       </div>
-      <button className="bg-neobrutalismGreen w-4/5 self-center py-4 border-4 shadow-neobrutalism border-black text-3xl font-bold hover:text-white">
+      <button className="bg-neobrutalismGreen w-4/5 self-center py-2 border-4 shadow-neobrutalism border-black text-3xl font-bold hover:text-white">
         REGISTER
       </button>
       <span className="text-sm self-center">
