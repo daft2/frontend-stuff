@@ -20,6 +20,9 @@ module.exports = {
       boxShadow: {
         'neobrutalism': '3px 3px 1px black',
         'checkbox': '2px 2px 1px black'
+      },
+      lineHeight: {
+        '1/10em':'0.1em'
       }
     },
   },
