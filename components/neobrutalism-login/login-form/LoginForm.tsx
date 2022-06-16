@@ -52,9 +52,11 @@ const LoginForm = () => {
         </button>
         <span className="text-sm self-center">
           {"Don't have an account? "}
-          <a className="cursor-pointer text-neobrutalismDarkGreen font-bold">
-            {"Sign up"}
-          </a>
+          <Link href={"/login-page/neobrutalism-login-page/register"}>
+            <span className="cursor-pointer text-neobrutalismDarkGreen font-bold">
+              {"Sign up"}
+            </span>
+          </Link>
         </span>
       </div>
     </div>

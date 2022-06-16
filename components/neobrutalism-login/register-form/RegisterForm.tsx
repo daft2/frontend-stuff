@@ -1,4 +1,5 @@
 import { faAt, faLock, faUser } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 import React from "react";
 import InputText from "../input-field/InputField";
 
@@ -53,7 +54,11 @@ const RegisterForm = () => {
       </button>
       <span className="text-sm self-center">
         {"Already have an account? "}
-        <a className="cursor-pointer text-red-500 font-bold">{"Login"}</a>
+        <Link href={"/login-page/neobrutalism-login-page/login"}>
+          <span className="cursor-pointer text-red-500 font-bold">
+            {"Login"}
+          </span>
+        </Link>
       </span>
     </div>
   );
